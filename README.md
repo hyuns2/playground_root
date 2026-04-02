@@ -6,11 +6,9 @@
   3. [스택](#스택)
   4. [실행방법](#실행방법)
 
-
 ## 🪄 소개
   - MSA 및 이벤트 기반 비동기 구조 학습을 위한 개인 프로젝트
   - 대규모 트래픽을 감안한 아키텍처 설계, 성능 최적화 중점
-
 
 ## 🔮 기능
   1. 회원 서비스
@@ -33,14 +31,15 @@
 ## ✔️ 실행방법
   ### 🏗️ 구조
   ```
-  workspace_playground/<p/>
-  ├─ docker-compose.yml<p/>
-  ├─ .dockerignore<p/>
-  ├─ .env<p/>
-  ├─ auth-service/<p/>
-  ├─ user-service/<p/>
-  ├─ chat-service/<p/>
-  └─ security-core/<p/>
+  workspace_playground/
+  ├─ docker-compose.yml
+  ├─ .dockerignore
+  ├─ .env
+  ├─ auth-service/
+  ├─ user-service/
+  ├─ chat-service/
+  ├─ gateway/
+  └─ security-core/
   ```
   ### ▶️ 실행
   ```sh docker-compose up --build ```
